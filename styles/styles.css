@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  height: 110vh;
+  background-color: rebeccapurple;
+}
+
+section.sec2 {
+  height: 90vh;
+  background-color: rgb(163, 22, 22);
+}
+
+section.sec3 {
+  height: 80vh;
+  background-color: rgb(11, 125, 160);
+}
+
+section.sec4 {
+  height: 120vh;
+  background-color: rgb(12, 221, 47);
+}
+
+nav {
+  position: fixed;
+  top: 28%;
+  bottom: 28%;
+  left: 0;
+  width: 8vw;
+}
+
+nav>ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  list-style-type: none;
+}
+
+li {
+  height: 8vh;
+  width: 8vh;
+  border-radius: 50%;
+  background-color: rebeccapurple;
+  transition: .2s linear;
+}
+
+.dot2 {
+  background-color: rgb(163, 22, 22);
+}
+
+.dot3 {
+  background-color: rgb(11, 125, 160);
+}
+
+.dot4 {
+  background-color: rgb(12, 221, 47);
+}
+
+.active {
+  box-shadow: 0 0 4px .5vh yellow, 0 0 4px 1vh crimson;
+}
